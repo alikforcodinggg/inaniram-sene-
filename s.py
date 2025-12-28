@@ -8,3 +8,4 @@ def shipping_label(*args, **kwargs):
     
 shipping_label("123 Main St", "Apt 4B", city="New York", state="NY", zip="10001")
 shipping_label("123 Main St", "Apt 4B", city="New York", state="NY", zip="10001", country="USA"     )
+shipping_label("123 Main St", "Apt 4B", city="New York", state="NY", zip="10001", country="USA", phone="123-456-7890")  
